@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5, 6};
@@ -12,9 +10,9 @@ int main()
     {
         for (int j = 0; j <= i; j++)
         {
-            cout << " " << arr[j];
+            std::cout << " " << arr[j];
         }
-        cout << "\n";
+        std::cout << "\n";
     }
     return 0;
 }
